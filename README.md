@@ -93,32 +93,32 @@ Geospatial Visualization
 
 The SDM framework demonstrates:
 
-* Accurate prediction of Mountain Lion habitat suitability
-* Identification of high-probability distribution areas
-* Reduced computational complexity compared to manual ecological assessments
-* Geospatial maps for conservation and research applications
+ Accurate prediction of Mountain Lion habitat suitability
+ Identification of high-probability distribution areas
+ Reduced computational complexity compared to manual ecological assessments
+ Geospatial maps for conservation and research applications
 
 
 
 > > Applications
 
-* Wildlife conservation and management
-* Habitat suitability assessment
-* Ecological research and biodiversity monitoring
-* Climate change impact modeling on species distribution
-* Environmental policy planning
+ Wildlife conservation and management
+ Habitat suitability assessment
+ Ecological research and biodiversity monitoring
+ Climate change impact modeling on species distribution
+ Environmental policy planning
 
 
 
 > > Future Work
 
-* Extend modeling to multi-species SDMs
-* Incorporate temporal environmental data for seasonal modeling
-* Integrate citizen science and real-time occurrence data
-* Apply deep learning for spatial-temporal habitat prediction
-* Combine with ecological connectivity and movement modeling
+ Extend modeling to multi-species SDMs
+ Incorporate temporal environmental data for seasonal modeling
+Integrate citizen science and real-time occurrence data
+ Apply deep learning for spatial-temporal habitat prediction
+ Combine with ecological connectivity and movement modeling
 
----
+
 
 > > How to Run
 
@@ -129,29 +129,29 @@ python sdm_mountain_lion.py
 
 > > Key Concepts
 
-* Species Distribution Modeling (SDM)
-* Habitat Suitability Prediction
-* Environmental Feature Engineering
-* Machine Learning Regression/Classification
-* Geospatial Visualization
+Species Distribution Modeling (SDM)
+ Habitat Suitability Prediction
+ Environmental Feature Engineering
+ Machine Learning Regression/Classification
+ Geospatial Visualization
 
 
 > > Author
 
-**Srikanth Shanmugam**
+Srikanth Shanmugam
 Electronics & Instrumentation Engineer
 AI • Ecology Modeling • Intelligent Scientific Systems
 
-GitHub: [https://github.com/srikth](https://github.com/srikth)
-LinkedIn: [https://www.linkedin.com/in/srikanth-shanmugam](https://www.linkedin.com/in/srikanth-shanmugam)
+GitHub:https://github.com/srikth
+LinkedIn: [https://www.linkedin.com/in/srikanth-shanmugam]
 
 
 
 > > References
 
-* Elith, J. & Leathwick, J. — Species Distribution Models: Ecological Explanation and Prediction
-* Phillips, S. — MaxEnt Modeling for Species Habitat Prediction
-* GBIF Occurrence Data for Puma concolor
-* Scikit-learn Documentation (Python ML Library)
-* Recent Research on Machine Learning for SDM
+ Elith, J. & Leathwick, J. — Species Distribution Models: Ecological Explanation and Prediction
+ Phillips, S. — MaxEnt Modeling for Species Habitat Prediction
+GBIF Occurrence Data for Puma concolor
+ Scikit-learn Documentation (Python ML Library)
+ Recent Research on Machine Learning for SDM
 
