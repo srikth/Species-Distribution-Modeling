@@ -59,6 +59,17 @@ Machine Learning Model Training
 Habitat Suitability Prediction
           ↓
 Geospatial Visualization
+Species Occurrence Data
+          ↓
+Environmental Data Compilation
+          ↓
+Feature Engineering
+          ↓
+Machine Learning Model Training
+          ↓
+Habitat Suitability Prediction
+          ↓
+Geospatial Visualization
 
 > > Methodology
 
