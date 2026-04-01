@@ -71,6 +71,8 @@ Habitat Suitability Prediction
           ↓
 Geospatial Visualization
 
+
+
 > > Methodology
 
 1. Data Collection
