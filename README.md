@@ -72,88 +72,72 @@ Habitat Suitability Prediction
 Geospatial Visualization
 
 
+>> Methodology
 
-> > Methodology
+Data Collection
+Occurrence records of Puma concolor are collected from GBIF and other biodiversity databases.
+Environmental Data Preparation
+Temperature, precipitation, elevation, and land cover layers are collected, cleaned, and standardized.
+Feature Engineering
+Environmental layers are combined with occurrence data to create feature matrices for model training.
+Model Training
+Supervised learning models are trained to predict species presence based on environmental predictors.
+Prediction & Visualization
+Trained models generate habitat suitability maps, highlighting regions where Mountain Lions are likely to occur.
 
-1. Data Collection
-   Occurrence records of *Puma concolor* are collected from GBIF and other biodiversity databases.
-
-2. Environmental Data Preparation
-   Temperature, precipitation, elevation, and land cover layers are collected, cleaned, and standardized.
-
-3. Feature Engineering
-   Environmental layers are combined with occurrence data to create feature matrices for model training.
-
-4. Model Training
-   Supervised learning models are trained to predict species presence based on environmental predictors.
-
-5. Prediction & Visualization
-   Trained models generate habitat suitability maps, highlighting regions where Mountain Lions are likely to occur.
-
-
-> > Results
+>>Results
 
 The SDM framework demonstrates:
 
- Accurate prediction of Mountain Lion habitat suitability
- Identification of high-probability distribution areas
- Reduced computational complexity compared to manual ecological assessments
- Geospatial maps for conservation and research applications
+Accurate prediction of Mountain Lion habitat suitability
+Identification of high-probability distribution areas
+Reduced computational complexity compared to manual ecological assessments
+Geospatial maps for conservation and research applications
 
+>>Applications
 
+Wildlife conservation and management
+Habitat suitability assessment
+Ecological research and biodiversity monitoring
+Climate change impact modeling on species distribution
+Environmental policy planning
 
-> > Applications
+>>Future Work
 
- Wildlife conservation and management
- Habitat suitability assessment
- Ecological research and biodiversity monitoring
- Climate change impact modeling on species distribution
- Environmental policy planning
-
-
-
-> > Future Work
-
- Extend modeling to multi-species SDMs
- Incorporate temporal environmental data for seasonal modeling
+Extend modeling to multi-species SDMs
+Incorporate temporal environmental data for seasonal modeling
 Integrate citizen science and real-time occurrence data
- Apply deep learning for spatial-temporal habitat prediction
- Combine with ecological connectivity and movement modeling
+Apply deep learning for spatial-temporal habitat prediction
+Combine with ecological connectivity and movement modeling
 
+>>How to Run
 
-
-> > How to Run
-
-bash
 pip install pandas numpy scikit-learn matplotlib seaborn geopandas rasterio
 python sdm_mountain_lion.py
 
-
-> > Key Concepts
+>>Key Concepts
 
 Species Distribution Modeling (SDM)
- Habitat Suitability Prediction
- Environmental Feature Engineering
- Machine Learning Regression/Classification
- Geospatial Visualization
+Habitat Suitability Prediction
+Environmental Feature Engineering
+Machine Learning Regression/Classification
+Geospatial Visualization
 
-
-> > Author
+>>Author
 
 Srikanth Shanmugam
 Electronics & Instrumentation Engineer
 AI • Ecology Modeling • Intelligent Scientific Systems
 
-GitHub:https://github.com/srikth
-LinkedIn: [https://www.linkedin.com/in/srikanth-shanmugam]
+GitHub: https://github.com/srikth
 
+LinkedIn: https://www.linkedin.com/in/srikanth-shanmugam
 
+>> References
 
-> > References
-
- Elith, J. & Leathwick, J. — Species Distribution Models: Ecological Explanation and Prediction
- Phillips, S. — MaxEnt Modeling for Species Habitat Prediction
+Elith, J. & Leathwick, J. — Species Distribution Models: Ecological Explanation and Prediction
+Phillips, S. — MaxEnt Modeling for Species Habitat Prediction
 GBIF Occurrence Data for Puma concolor
- Scikit-learn Documentation (Python ML Library)
- Recent Research on Machine Learning for SDM
+Scikit-learn Documentation (Python ML Library)
+Recent Research on Machine Learning for SDM
 
