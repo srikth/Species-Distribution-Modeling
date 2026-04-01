@@ -45,7 +45,7 @@ This project integrates:
 
 
 
-> . System Architecture
+> > System Architecture
 
 ```text
 Species Occurrence Data
@@ -60,19 +60,18 @@ Habitat Suitability Prediction
           ↓
 Geospatial Visualization
 
-
 > > Methodology
 
-1. **Data Collection**
+1. Data Collection
    Occurrence records of *Puma concolor* are collected from GBIF and other biodiversity databases.
 
-2. **Environmental Data Preparation**
+2. Environmental Data Preparation
    Temperature, precipitation, elevation, and land cover layers are collected, cleaned, and standardized.
 
-3. **Feature Engineering**
+3. Feature Engineering
    Environmental layers are combined with occurrence data to create feature matrices for model training.
 
-4. **Model Training**
+4. Model Training
    Supervised learning models are trained to predict species presence based on environmental predictors.
 
 5. Prediction & Visualization
